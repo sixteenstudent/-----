@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        ГОЛОВОЛОМКА
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+             }
+             #nav {background-color: rgb(0, 2, 148);
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: white;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(255, 255, 255);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-color: rgb(255, 255, 255);  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-left a {color: purple}
+	#sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(255, 255, 0);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>ГОЛОВОЛОМКА</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">О героях</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">О героях</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Весь спектр эмоций смотрите в 2024 году</p>
+             </div>
+            <div id="main">
+                <p>В голове у обычной 11-летней школьницы Райли живут пять базовых эмоций: Радость, Грусть, Страх, Гнев и Отвращение. Они каждый день помогают ей справляться с проблемами, руководя всеми ее поступками. Вдруг выясняется, что Райли и ее родителям предстоит переезд из небольшого уютного городка в шумный и людный мегаполис. Каждая из эмоций считает, что именно она лучше прочих знает, что нужно делать в этой непростой ситуации, и в голове у девочки наступает полный хаос.</p>
+                <p>год производства: 2015</p>
+                <p>страна: США</p>
+                <p>жанр: мультфильм, семейный, комедия, фэнтези</p>
+                <p>время: 95 мин. / 01:35</p>
+            </div>
+        </div>
+        <div id="footer">Нет слов, одни эмоции</div>
+    </body>
+</html>   
